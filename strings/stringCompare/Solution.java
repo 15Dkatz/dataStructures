@@ -52,12 +52,9 @@ public class Solution {
 
         // create an array of strings of the length substring
         // populate the array with all possible substrings
-        
         Scanner scanner = new Scanner(System.in);
-
         String originalStr = scanner.next();
         int substringLength = scanner.nextInt();
-
 
         int arrLength = originalStr.length()-substringLength+1;
         String[] substringsArr = new String[arrLength];
